@@ -6,7 +6,7 @@
 
 ####### FLAGS
 
-CC      = clang
+gcc      = clang
 CFLAGS	= -O3 -std=c89
 
 ifeq ($(OS), Windows_NT)
